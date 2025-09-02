@@ -390,7 +390,7 @@ extension SwiftSpotifySdkPlugin {
         }
 
         setAccessTokenFromURL(url: url)
-        return false
+        return true
     }
 
     private func setAccessTokenFromURL(url: URL) {
